@@ -1,3 +1,11 @@
+<head>
+<style>
+td, th {
+    border: 1px solid grey;
+}
+</style>
+</head>
+
 ### ICP-3011 Computer & Network Security
 ----
 # **Reflect And Relate** <img src='../uni_logo.jpg' width='150px' align='right'/> 
@@ -7,6 +15,7 @@
 ### 📅 - 04.10.2020
 
 ----
+
 ## **Week 1** - SSH Remote Access
 ### Concepts learnt: 
  - SSH (Secure SHell)
@@ -25,4 +34,6 @@ I use git to track changes to my projects, which requires a public key before an
 
 ## **Week 2** - GPG - *GNU Privacy Guard*
 ## **Week 3** - E-Mail Spoofing
+Building on top of previous security layers means nothing if not secure.
+
 ## **Week 4** - 'Real World' Cracking

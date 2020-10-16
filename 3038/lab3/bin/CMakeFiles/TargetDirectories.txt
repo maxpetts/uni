@@ -1,0 +1,9 @@
+/Users/mp/Documents/uni/3038/lab3/bin/CMakeFiles/RUN_TESTS.dir
+/Users/mp/Documents/uni/3038/lab3/bin/CMakeFiles/celsius2fahrenheit.dir
+/Users/mp/Documents/uni/3038/lab3/bin/CMakeFiles/lab3-4-cxx.dir
+/Users/mp/Documents/uni/3038/lab3/bin/CMakeFiles/lab3-2-cxx.dir
+/Users/mp/Documents/uni/3038/lab3/bin/CMakeFiles/lab3-5-cxx.dir
+/Users/mp/Documents/uni/3038/lab3/bin/CMakeFiles/lab3-3-cxx.dir
+/Users/mp/Documents/uni/3038/lab3/bin/CMakeFiles/lab3-1-cxx.dir
+/Users/mp/Documents/uni/3038/lab3/bin/CMakeFiles/ALL_BUILD.dir
+/Users/mp/Documents/uni/3038/lab3/bin/CMakeFiles/ZERO_CHECK.dir

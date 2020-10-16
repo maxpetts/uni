@@ -1,0 +1,1669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		232C8285687E4047A33AC2AA /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 45DDBC211EE74ED58168D006 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				41E5FDF6D1654DF7B0E62789 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		348D33B964AC48EDA6360B9B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E3716847599E464397537B0D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CD7860D9CF9541A596E6D00F /* CMake Rules */,
+			);
+			dependencies = (
+				9A7F1090379244D1AC52AEAF /* PBXTargetDependency */,
+				9E14272615B44CF78EFD5449 /* PBXTargetDependency */,
+				1771AB9D0FE44962B3F112A2 /* PBXTargetDependency */,
+				848AAEC20E2A46079F79387C /* PBXTargetDependency */,
+				D63ED88D185541408302164C /* PBXTargetDependency */,
+				6F63FEEFE6C64E12ADAB1156 /* PBXTargetDependency */,
+				5FEFF4ED9BA44C81AE607B96 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		36DE4204FD034BDC8266399A /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 963F34A9DE04403290003FBB /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				1E1811A7390D487FBB2176B8 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		004E7AAF34064BAC83C91504 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0ADB42FAAEF64EA78D41B71D /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */; };
+		22EA360A368B48DCAAD450C2 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7335BAD97C154262B3630541 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */; };
+		32427FCBC41E490BA0CEE5DE /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B0A20992B370426FA857948B /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */; };
+		3AF27E328A5043A48F3F07B9 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-1.cxx */ = {isa = PBXBuildFile; fileRef = 89B022DC68E34CFD8F319E75 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-1.cxx */; };
+		5F2AC80554254E0E97C4C75A /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 357CE4EE704E4F2CBA7A9F15 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */; };
+		63A40AFC0CF64E2E8E512F46 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-5.cxx */ = {isa = PBXBuildFile; fileRef = 98FE0007AB614C20ADE05840 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-5.cxx */; };
+		6ACD68B313E04FEDB8B7C9B2 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-3.cxx */ = {isa = PBXBuildFile; fileRef = DBFC13BBDF4F4766AF47CA58 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-3.cxx */; };
+		71BDAE69F136402197C82A64 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 78B98C87ED8649208181D704 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */; };
+		9527537F5D264C0CA77E8470 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 27868CABEEF54F928D7C55B4 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */; };
+		977B501493F846978719D155 /* /Users/mp/Documents/uni/3038/lab3/src/celsius2fahrenheit.cxx */ = {isa = PBXBuildFile; fileRef = 7B89BB9F562F4CE687B96670 /* /Users/mp/Documents/uni/3038/lab3/src/celsius2fahrenheit.cxx */; };
+		D068B2561F214878BB60677A /* /Users/mp/Documents/uni/3038/lab3/src/lab3-2.cxx */ = {isa = PBXBuildFile; fileRef = 67A4784E9BD94CB08C4F5471 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-2.cxx */; };
+		EA98BF7C0DD74344B08363A4 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-4.cxx */ = {isa = PBXBuildFile; fileRef = 995A48662D6C4048AC957418 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-4.cxx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0159B5F227C94769BC5BCB97 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		52A314590BB44D8DA2E9B36F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		766A4DFE535E4BFEB971A850 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D2C7BE8D194B418AAF274645 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		171C1F443CA64A9FB4778D37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232C8285687E4047A33AC2AA;
+			remoteInfo = ZERO_CHECK;
+		};
+		4A44760D11AD45498D6C06BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F925C32DB64B849C7B9322;
+			remoteInfo = "lab3-3-cxx";
+		};
+		55768655ABC9411481100242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232C8285687E4047A33AC2AA;
+			remoteInfo = ZERO_CHECK;
+		};
+		5971AFE4E99D46FE8F77D130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232C8285687E4047A33AC2AA;
+			remoteInfo = ZERO_CHECK;
+		};
+		5F657B2696E24096AF78C208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5541BC14836649AD8FBFE130;
+			remoteInfo = celsius2fahrenheit;
+		};
+		61BF4CBCF0264A3BA0063536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232C8285687E4047A33AC2AA;
+			remoteInfo = ZERO_CHECK;
+		};
+		62C3D5F1100E40ED88E1EB43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D38C548E47054BB58D76AF79;
+			remoteInfo = "lab3-2-cxx";
+		};
+		651E131350AC4ADEBD56A5CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 747F78A4136344D1AF9816E8;
+			remoteInfo = "lab3-1-cxx";
+		};
+		68B339A286E843D199F0E03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232C8285687E4047A33AC2AA;
+			remoteInfo = ZERO_CHECK;
+		};
+		974A7FC1A6A34A80BDF1CC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259A0CB283994751B91295CA;
+			remoteInfo = "lab3-5-cxx";
+		};
+		A3CE3FF5AE3E406CB35135B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232C8285687E4047A33AC2AA;
+			remoteInfo = ZERO_CHECK;
+		};
+		F02E9D682B3B4201B870D0F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 232C8285687E4047A33AC2AA;
+			remoteInfo = ZERO_CHECK;
+		};
+		FE7E5EA4BA1341DA9D9467EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5D13867EBC475FAECB3661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0153829D4FAA42BF9242E904;
+			remoteInfo = "lab3-4-cxx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ADB42FAAEF64EA78D41B71D /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		27868CABEEF54F928D7C55B4 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2CCA46809EC94D41A635A89D /* celsius2fahrenheit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = celsius2fahrenheit; sourceTree = BUILT_PRODUCTS_DIR; };
+		357CE4EE704E4F2CBA7A9F15 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5BEFE9A1A4184C1B894A6FC0 /* lab3-5-cxx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "lab3-5-cxx"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A4784E9BD94CB08C4F5471 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-2.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "lab3-2.cxx"; path = "lab3-2.cxx"; sourceTree = SOURCE_ROOT; };
+		71BB91DC2B0C4FBCA681E86F /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7335BAD97C154262B3630541 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		78B98C87ED8649208181D704 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7B89BB9F562F4CE687B96670 /* /Users/mp/Documents/uni/3038/lab3/src/celsius2fahrenheit.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = celsius2fahrenheit.cxx; path = celsius2fahrenheit.cxx; sourceTree = SOURCE_ROOT; };
+		89B022DC68E34CFD8F319E75 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-1.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "lab3-1.cxx"; path = "lab3-1.cxx"; sourceTree = SOURCE_ROOT; };
+		98FE0007AB614C20ADE05840 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-5.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "lab3-5.cxx"; path = "lab3-5.cxx"; sourceTree = SOURCE_ROOT; };
+		995A48662D6C4048AC957418 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-4.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "lab3-4.cxx"; path = "lab3-4.cxx"; sourceTree = SOURCE_ROOT; };
+		B0A20992B370426FA857948B /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B474AB6042EF4101A102AFC1 /* lab3-3-cxx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "lab3-3-cxx"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD95A1977D242889D29A568 /* lab3-2-cxx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "lab3-2-cxx"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA99E84ABDAA482B931DE2C3 /* lab3-1-cxx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "lab3-1-cxx"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFC13BBDF4F4766AF47CA58 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-3.cxx */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "lab3-3.cxx"; path = "lab3-3.cxx"; sourceTree = SOURCE_ROOT; };
+		F9997702617D46FCB69D91FA /* lab3-4-cxx */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "lab3-4-cxx"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0D7471FF218E4BBAA75BDE81 /* lab3-2-cxx */ = {
+			isa = PBXGroup;
+			children = (
+				43E06EA2EFC1410EA0627443 /* Source Files */,
+				7335BAD97C154262B3630541 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */,
+			);
+			name = "lab3-2-cxx";
+			sourceTree = "<group>";
+		};
+		191118BB9E99465099B54D92 /* celsius2fahrenheit */ = {
+			isa = PBXGroup;
+			children = (
+				D823EFAF0C7D482C96726EF0 /* Source Files */,
+				27868CABEEF54F928D7C55B4 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */,
+			);
+			name = celsius2fahrenheit;
+			sourceTree = "<group>";
+		};
+		261D0061736F4C9B93FCE97A /* lab3-3-cxx */ = {
+			isa = PBXGroup;
+			children = (
+				EE525F797D2D49E88776DD6E /* Source Files */,
+				B0A20992B370426FA857948B /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */,
+			);
+			name = "lab3-3-cxx";
+			sourceTree = "<group>";
+		};
+		43E06EA2EFC1410EA0627443 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				67A4784E9BD94CB08C4F5471 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-2.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4B3C0160E2BF4857AAE44A42 /* lab3-5-cxx */ = {
+			isa = PBXGroup;
+			children = (
+				AED33061BB994FF8B4D87E33 /* Source Files */,
+				78B98C87ED8649208181D704 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */,
+			);
+			name = "lab3-5-cxx";
+			sourceTree = "<group>";
+		};
+		700D69BE51B94B46931BCD4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCA46809EC94D41A635A89D /* celsius2fahrenheit */,
+				CA99E84ABDAA482B931DE2C3 /* lab3-1-cxx */,
+				BFD95A1977D242889D29A568 /* lab3-2-cxx */,
+				B474AB6042EF4101A102AFC1 /* lab3-3-cxx */,
+				F9997702617D46FCB69D91FA /* lab3-4-cxx */,
+				5BEFE9A1A4184C1B894A6FC0 /* lab3-5-cxx */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89929E0DE4064F339486F08D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				995A48662D6C4048AC957418 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-4.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A6128FBDAE62470CB0493F82 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CEF7D98388BD4DBB8AF0E78F /* CMake Rules */,
+				71BB91DC2B0C4FBCA681E86F /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AED33061BB994FF8B4D87E33 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				98FE0007AB614C20ADE05840 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-5.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B7CAD720C56C4CA5AABE9372 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B022DC68E34CFD8F319E75 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-1.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CEF7D98388BD4DBB8AF0E78F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D571FA0A46A0460A9476C1F3 = {
+			isa = PBXGroup;
+			children = (
+				191118BB9E99465099B54D92 /* celsius2fahrenheit */,
+				FC94398C33254D0BB4CA3D75 /* lab3-4-cxx */,
+				0D7471FF218E4BBAA75BDE81 /* lab3-2-cxx */,
+				4B3C0160E2BF4857AAE44A42 /* lab3-5-cxx */,
+				261D0061736F4C9B93FCE97A /* lab3-3-cxx */,
+				DBDC41450F8D4928B1B62C4A /* lab3-1-cxx */,
+				A6128FBDAE62470CB0493F82 /* ALL_BUILD */,
+				700D69BE51B94B46931BCD4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D823EFAF0C7D482C96726EF0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B89BB9F562F4CE687B96670 /* /Users/mp/Documents/uni/3038/lab3/src/celsius2fahrenheit.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DBDC41450F8D4928B1B62C4A /* lab3-1-cxx */ = {
+			isa = PBXGroup;
+			children = (
+				B7CAD720C56C4CA5AABE9372 /* Source Files */,
+				0ADB42FAAEF64EA78D41B71D /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */,
+			);
+			name = "lab3-1-cxx";
+			sourceTree = "<group>";
+		};
+		EE525F797D2D49E88776DD6E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBFC13BBDF4F4766AF47CA58 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-3.cxx */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		FC94398C33254D0BB4CA3D75 /* lab3-4-cxx */ = {
+			isa = PBXGroup;
+			children = (
+				89929E0DE4064F339486F08D /* Source Files */,
+				357CE4EE704E4F2CBA7A9F15 /* /Users/mp/Documents/uni/3038/lab3/src/CMakeLists.txt */,
+			);
+			name = "lab3-4-cxx";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0153829D4FAA42BF9242E904 /* lab3-4-cxx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63E0FCA6C6648829FBA8E0F /* Build configuration list for PBXNativeTarget "lab3-4-cxx" */;
+			buildPhases = (
+				8AD6AFB1CF0C4DBAAE75D384 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32A225C140224B3A8EAC1952 /* PBXTargetDependency */,
+			);
+			name = "lab3-4-cxx";
+			productName = "lab3-4-cxx";
+			productReference = F9997702617D46FCB69D91FA /* lab3-4-cxx */;
+			productType = "com.apple.product-type.tool";
+		};
+		259A0CB283994751B91295CA /* lab3-5-cxx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86246F9D45F04AAC994E30A6 /* Build configuration list for PBXNativeTarget "lab3-5-cxx" */;
+			buildPhases = (
+				67BFB55B2BFC45C898D3A4A2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B3A08EFB96644ECAF96594E /* PBXTargetDependency */,
+			);
+			name = "lab3-5-cxx";
+			productName = "lab3-5-cxx";
+			productReference = 5BEFE9A1A4184C1B894A6FC0 /* lab3-5-cxx */;
+			productType = "com.apple.product-type.tool";
+		};
+		26F925C32DB64B849C7B9322 /* lab3-3-cxx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADB7A5FF8A6433A9D5B51F3 /* Build configuration list for PBXNativeTarget "lab3-3-cxx" */;
+			buildPhases = (
+				4916A044914D4C5C85BD058A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0675E9CC568486790497B2F /* PBXTargetDependency */,
+			);
+			name = "lab3-3-cxx";
+			productName = "lab3-3-cxx";
+			productReference = B474AB6042EF4101A102AFC1 /* lab3-3-cxx */;
+			productType = "com.apple.product-type.tool";
+		};
+		5541BC14836649AD8FBFE130 /* celsius2fahrenheit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D205723CBA1B4F4E8CA2FA89 /* Build configuration list for PBXNativeTarget "celsius2fahrenheit" */;
+			buildPhases = (
+				6C8558D7DBEA4F6BA2301350 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58F7D50E7C3B42048215F2AA /* PBXTargetDependency */,
+			);
+			name = celsius2fahrenheit;
+			productName = celsius2fahrenheit;
+			productReference = 2CCA46809EC94D41A635A89D /* celsius2fahrenheit */;
+			productType = "com.apple.product-type.tool";
+		};
+		747F78A4136344D1AF9816E8 /* lab3-1-cxx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44653ECF4EE34DDA81DA5AD4 /* Build configuration list for PBXNativeTarget "lab3-1-cxx" */;
+			buildPhases = (
+				FA0D8F1C932842C19E66A77C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6554E7BD36473C9FF4DD47 /* PBXTargetDependency */,
+			);
+			name = "lab3-1-cxx";
+			productName = "lab3-1-cxx";
+			productReference = CA99E84ABDAA482B931DE2C3 /* lab3-1-cxx */;
+			productType = "com.apple.product-type.tool";
+		};
+		D38C548E47054BB58D76AF79 /* lab3-2-cxx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C2BA4090984573B82EF63A /* Build configuration list for PBXNativeTarget "lab3-2-cxx" */;
+			buildPhases = (
+				F31B157435EA4599ABEB9623 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22432D44CC2B4A42B356F18F /* PBXTargetDependency */,
+			);
+			name = "lab3-2-cxx";
+			productName = "lab3-2-cxx";
+			productReference = BFD95A1977D242889D29A568 /* lab3-2-cxx */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B5D13867EBC475FAECB3661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = 3758433CC72F4DBBA622D01D /* Build configuration list for PBXProject "lab3" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D2C7BE8D194B418AAF274645 /* Debug */,
+				52A314590BB44D8DA2E9B36F /* Release */,
+				0159B5F227C94769BC5BCB97 /* MinSizeRel */,
+				766A4DFE535E4BFEB971A850 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = D571FA0A46A0460A9476C1F3;
+			projectDirPath = /Users/mp/Documents/uni/3038/lab3/src;
+			projectRoot = "";
+			targets = (
+				348D33B964AC48EDA6360B9B /* ALL_BUILD */,
+				36DE4204FD034BDC8266399A /* RUN_TESTS */,
+				232C8285687E4047A33AC2AA /* ZERO_CHECK */,
+				5541BC14836649AD8FBFE130 /* celsius2fahrenheit */,
+				747F78A4136344D1AF9816E8 /* lab3-1-cxx */,
+				D38C548E47054BB58D76AF79 /* lab3-2-cxx */,
+				26F925C32DB64B849C7B9322 /* lab3-3-cxx */,
+				0153829D4FAA42BF9242E904 /* lab3-4-cxx */,
+				259A0CB283994751B91295CA /* lab3-5-cxx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B4B769B5B1D47FAB608E4EA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		151D8B5BC8944A779E1EB862 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1E1811A7390D487FBB2176B8 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mp/Documents/uni/3038/lab3/bin -f /Users/mp/Documents/uni/3038/lab3/bin/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		41E5FDF6D1654DF7B0E62789 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mp/Documents/uni/3038/lab3/bin -f /Users/mp/Documents/uni/3038/lab3/bin/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		CD7860D9CF9541A596E6D00F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/mp/Documents/uni/3038/lab3/bin -f /Users/mp/Documents/uni/3038/lab3/bin/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		F469DFFD567F41D99543D43E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4916A044914D4C5C85BD058A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACD68B313E04FEDB8B7C9B2 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-3.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BFB55B2BFC45C898D3A4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A40AFC0CF64E2E8E512F46 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-5.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8558D7DBEA4F6BA2301350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977B501493F846978719D155 /* /Users/mp/Documents/uni/3038/lab3/src/celsius2fahrenheit.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD6AFB1CF0C4DBAAE75D384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA98BF7C0DD74344B08363A4 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-4.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31B157435EA4599ABEB9623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D068B2561F214878BB60677A /* /Users/mp/Documents/uni/3038/lab3/src/lab3-2.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0D8F1C932842C19E66A77C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF27E328A5043A48F3F07B9 /* /Users/mp/Documents/uni/3038/lab3/src/lab3-1.cxx */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1771AB9D0FE44962B3F112A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 747F78A4136344D1AF9816E8 /* lab3-1-cxx */;
+			targetProxy = 651E131350AC4ADEBD56A5CC /* PBXContainerItemProxy */;
+		};
+		22432D44CC2B4A42B356F18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232C8285687E4047A33AC2AA /* ZERO_CHECK */;
+			targetProxy = F02E9D682B3B4201B870D0F2 /* PBXContainerItemProxy */;
+		};
+		2B3A08EFB96644ECAF96594E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232C8285687E4047A33AC2AA /* ZERO_CHECK */;
+			targetProxy = 5971AFE4E99D46FE8F77D130 /* PBXContainerItemProxy */;
+		};
+		32A225C140224B3A8EAC1952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232C8285687E4047A33AC2AA /* ZERO_CHECK */;
+			targetProxy = A3CE3FF5AE3E406CB35135B8 /* PBXContainerItemProxy */;
+		};
+		58F7D50E7C3B42048215F2AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232C8285687E4047A33AC2AA /* ZERO_CHECK */;
+			targetProxy = 68B339A286E843D199F0E03E /* PBXContainerItemProxy */;
+		};
+		5FEFF4ED9BA44C81AE607B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D38C548E47054BB58D76AF79 /* lab3-2-cxx */;
+			targetProxy = 62C3D5F1100E40ED88E1EB43 /* PBXContainerItemProxy */;
+		};
+		6F63FEEFE6C64E12ADAB1156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0153829D4FAA42BF9242E904 /* lab3-4-cxx */;
+			targetProxy = FE7E5EA4BA1341DA9D9467EB /* PBXContainerItemProxy */;
+		};
+		848AAEC20E2A46079F79387C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259A0CB283994751B91295CA /* lab3-5-cxx */;
+			targetProxy = 974A7FC1A6A34A80BDF1CC6B /* PBXContainerItemProxy */;
+		};
+		9A7F1090379244D1AC52AEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232C8285687E4047A33AC2AA /* ZERO_CHECK */;
+			targetProxy = 171C1F443CA64A9FB4778D37 /* PBXContainerItemProxy */;
+		};
+		9E14272615B44CF78EFD5449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F925C32DB64B849C7B9322 /* lab3-3-cxx */;
+			targetProxy = 4A44760D11AD45498D6C06BB /* PBXContainerItemProxy */;
+		};
+		D63ED88D185541408302164C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5541BC14836649AD8FBFE130 /* celsius2fahrenheit */;
+			targetProxy = 5F657B2696E24096AF78C208 /* PBXContainerItemProxy */;
+		};
+		E0675E9CC568486790497B2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232C8285687E4047A33AC2AA /* ZERO_CHECK */;
+			targetProxy = 61BF4CBCF0264A3BA0063536 /* PBXContainerItemProxy */;
+		};
+		FD6554E7BD36473C9FF4DD47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 232C8285687E4047A33AC2AA /* ZERO_CHECK */;
+			targetProxy = 55768655ABC9411481100242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14C4DC5B72FC45999401F216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-5-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1F551DC362B846A994A36B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = celsius2fahrenheit;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		20F48B92DB65484DA334268B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-5-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2469976125BC423DBB4712CA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2486115DF50C4FA1BBC4BB39 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		24FC5985E1F34BFC8CAF0A94 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin/build;
+			};
+			name = RelWithDebInfo;
+		};
+		285D872528254A13AFD741E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2BFEF63902E244CBB3354598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-4-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3270DF3CD940489583FBC277 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-2-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		335E076B81E44E1FBD631C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-3-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		43B5099C00BE454795425A0E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		456F1DC69A1F4C519B9CB223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		552250F108984C2EA3E281E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = celsius2fahrenheit;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5E508A5D1FD24C73B162BE40 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-4-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		60287B3B2DCD444A9B510BA5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-2-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6658AC25A756400C943FEEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6DBA93937CB941ECB9D78B4D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-5-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7222608374B94324A2AEB22F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-1-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7373D8B35F1440EA8361B748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		88DA4BB71B324D39BA261979 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = celsius2fahrenheit;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8909976530284313A42F1191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin/build;
+			};
+			name = Debug;
+		};
+		99A903A48CBE49F09EABF609 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-3-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9A57652008E84D8B81CE4AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-1-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9B98E9BE6E7D4711B843C1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-2-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9C69FFAD304C46769BD47A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-2-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A2369559330E4821B5AD5115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin/build;
+			};
+			name = Release;
+		};
+		A7BDD59D612D497AA857DCE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-4-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B2145890BD2D4994AF2D6E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-3-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B2BE3A3507614708A3DD9C8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-1-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B841B964A0FA461B823E6CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BB712EE7797B4B07BE5B19AB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-1-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C68FABE1A1B24A9681CAFDA5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C9CC57603C7346CEA408F8ED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-3-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CF2F22AEB44C48C4960E6324 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = celsius2fahrenheit;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D8D847CE827A4150A253458B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DC5E2C561C4B465196DA1645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EFC29998DC2E4EDFB05BFBEF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin/build;
+			};
+			name = MinSizeRel;
+		};
+		F1C7D6851E42412C917411A9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F785B880849E47A9AA543C75 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-4-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FCCA978CD16D40F0A957222D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "lab3-5-cxx";
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/mp/Documents/uni/3038/lab3/bin;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3758433CC72F4DBBA622D01D /* Build configuration list for PBXProject "lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8909976530284313A42F1191 /* Debug */,
+				A2369559330E4821B5AD5115 /* Release */,
+				EFC29998DC2E4EDFB05BFBEF /* MinSizeRel */,
+				24FC5985E1F34BFC8CAF0A94 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		41C2BA4090984573B82EF63A /* Build configuration list for PBXNativeTarget "lab3-2-cxx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C69FFAD304C46769BD47A0F /* Debug */,
+				9B98E9BE6E7D4711B843C1F9 /* Release */,
+				60287B3B2DCD444A9B510BA5 /* MinSizeRel */,
+				3270DF3CD940489583FBC277 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		44653ECF4EE34DDA81DA5AD4 /* Build configuration list for PBXNativeTarget "lab3-1-cxx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7222608374B94324A2AEB22F /* Debug */,
+				9A57652008E84D8B81CE4AD5 /* Release */,
+				B2BE3A3507614708A3DD9C8B /* MinSizeRel */,
+				BB712EE7797B4B07BE5B19AB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45DDBC211EE74ED58168D006 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5E2C561C4B465196DA1645 /* Debug */,
+				456F1DC69A1F4C519B9CB223 /* Release */,
+				43B5099C00BE454795425A0E /* MinSizeRel */,
+				F1C7D6851E42412C917411A9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		86246F9D45F04AAC994E30A6 /* Build configuration list for PBXNativeTarget "lab3-5-cxx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCA978CD16D40F0A957222D /* Debug */,
+				14C4DC5B72FC45999401F216 /* Release */,
+				6DBA93937CB941ECB9D78B4D /* MinSizeRel */,
+				20F48B92DB65484DA334268B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		963F34A9DE04403290003FBB /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7373D8B35F1440EA8361B748 /* Debug */,
+				B841B964A0FA461B823E6CD7 /* Release */,
+				2469976125BC423DBB4712CA /* MinSizeRel */,
+				2486115DF50C4FA1BBC4BB39 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D205723CBA1B4F4E8CA2FA89 /* Build configuration list for PBXNativeTarget "celsius2fahrenheit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F551DC362B846A994A36B7B /* Debug */,
+				552250F108984C2EA3E281E2 /* Release */,
+				CF2F22AEB44C48C4960E6324 /* MinSizeRel */,
+				88DA4BB71B324D39BA261979 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D63E0FCA6C6648829FBA8E0F /* Build configuration list for PBXNativeTarget "lab3-4-cxx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BDD59D612D497AA857DCE8 /* Debug */,
+				2BFEF63902E244CBB3354598 /* Release */,
+				5E508A5D1FD24C73B162BE40 /* MinSizeRel */,
+				F785B880849E47A9AA543C75 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E3716847599E464397537B0D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6658AC25A756400C943FEEAF /* Debug */,
+				285D872528254A13AFD741E4 /* Release */,
+				C68FABE1A1B24A9681CAFDA5 /* MinSizeRel */,
+				D8D847CE827A4150A253458B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FADB7A5FF8A6433A9D5B51F3 /* Build configuration list for PBXNativeTarget "lab3-3-cxx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335E076B81E44E1FBD631C04 /* Debug */,
+				B2145890BD2D4994AF2D6E57 /* Release */,
+				99A903A48CBE49F09EABF609 /* MinSizeRel */,
+				C9CC57603C7346CEA408F8ED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B5D13867EBC475FAECB3661 /* Project object */;
+}
