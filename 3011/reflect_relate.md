@@ -1,14 +1,24 @@
 <head>
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&display=swap" rel="stylesheet"> 
 <style>
-td, th {
+table {
     border: 1px solid grey;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    height: 90vh;
+
+}
+h1, h2{
+    font-family: 'Patua One';
 }
 </style>
 </head>
 
 ### ICP-3011 Computer & Network Security
 ----
-# **Reflect And Relate** <img src='../uni_logo.jpg' width='150px' align='right'/> 
+# **Reflect And Relate** <img src='/Users/mp/Documents/uni/uni_logo.jpg' width='150px' align='right'/> 
 
 
 ## **Max Petts** *- eeub35*
@@ -18,9 +28,13 @@ td, th {
 
 ## **Week 1** - SSH Remote Access
 ### Concepts learnt: 
- - SSH (Secure SHell)
  - Authentication
+ - SSH (Secure SHell)
  - Cryptography (RSA Cryptosystem)
+
+In order to ensure the appropriate actors(users) are able to access the correct areas of a system, but are denied access to other. To achieve this the security system must be able to differentiate between users; when discussing authentication the user being identified is called the Principal.
+
+
 
 This weeks lab detailed the steps that must be taken in order to remotely connect to another machine via SSH, provided it's connected to the internet, or the same local network. 
 
@@ -33,7 +47,18 @@ I use git to track changes to my projects, which requires a public key before an
 | [1] | http://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf | 
 
 ## **Week 2** - GPG - *GNU Privacy Guard*
+### Concepts learnt:
+ - The CIA Triad 
+
+CIA (Confidentiality, Integrity, Availability)
+ Without can't gaurantee secure transfer of information at all.
+Encryption ensures that transmitted data remains private 
 ## **Week 3** - E-Mail Spoofing
+### Concepts learnt:
+ - Security from the start
 Building on top of previous security layers means nothing if not secure.
 
 ## **Week 4** - 'Real World' Cracking
+### Concepts learnt:
+- Validation
+"Trust is the root of all compromise"
