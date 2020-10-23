@@ -7,3 +7,8 @@
 
 ## Navigating
 Each folder is named after the module code *(i.e 3011 = ICP-3011)*, and contains each assignment I have completed
+
+## Modules
+ - ICP-3011 Computer & Network Security
+ - ICP-3038 Computer Vision
+ - ICP-3042 New Technologies
