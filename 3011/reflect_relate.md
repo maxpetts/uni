@@ -32,13 +32,9 @@ h1, h2{
  - SSH (Secure SHell)
  - Cryptography (RSA Cryptosystem)
 
-In order to ensure the appropriate actors(users) are able to access the correct areas of a system, but are denied access to other. To achieve this the security system must be able to differentiate between users; when discussing authentication the user being identified is called the Principal.
+In order to ensure the appropriate actors(users) are able to access the correct areas of a system, but are denied access to other, the security system must be able to differentiate between users; this is identification. Authentication, on the other hand, is the act of validating the claimed identity. When discussing authentication the user being identified is called the Principal.
 
-
-
-This weeks lab detailed the steps that must be taken in order to remotely connect to another machine via SSH, provided it's connected to the internet, or the same local network. 
-
-Once an SSH connection had been established I used the command  *ssh-keygen* to generate an RSA key. This is used to circumvent the transmission of passwords, which can be cracked using brute force attacks, phishing scams or network analysers(if transmitting in plain text). However, a password is used to authenticate the user, but this doesn't leave the computer.
+Authentication is apparent in many day to day tasks for example, when you get tested for Covid-19 the nurses will ask you to recite your name and address, as to verify you're the person you claim to be. This is called a credential and is used to verify the principal being claimed is entitled. Without this step Principal may get their test back positive, when it is actually negative, or visa versa. Some methods of authorization become less user friendly and laborious, if a credential
 
 I use git to track changes to my projects, which requires a public key before any changes can be pushed to the repository; if this repo contained sensitive information then the key should use ECDSA, as RSA is vulnerable to [timing attacks[1]](http://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf).
 
