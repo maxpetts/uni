@@ -1,7 +1,0 @@
-/Users/mp/Documents/uni/3038/lab2/bin/CMakeFiles/lab2-3-cxx.dir
-/Users/mp/Documents/uni/3038/lab2/bin/CMakeFiles/lab2-2-cxx.dir
-/Users/mp/Documents/uni/3038/lab2/bin/CMakeFiles/lab2-2-c.dir
-/Users/mp/Documents/uni/3038/lab2/bin/CMakeFiles/lab2-1-cxx.dir
-/Users/mp/Documents/uni/3038/lab2/bin/CMakeFiles/lab2-1-c.dir
-/Users/mp/Documents/uni/3038/lab2/bin/CMakeFiles/ALL_BUILD.dir
-/Users/mp/Documents/uni/3038/lab2/bin/CMakeFiles/ZERO_CHECK.dir

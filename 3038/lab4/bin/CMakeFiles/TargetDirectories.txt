@@ -1,4 +1,0 @@
-/Users/mp/Documents/uni/3038/lab4/bin/CMakeFiles/TestStringInv.dir
-/Users/mp/Documents/uni/3038/lab4/bin/CMakeFiles/TestInteger.dir
-/Users/mp/Documents/uni/3038/lab4/bin/CMakeFiles/ALL_BUILD.dir
-/Users/mp/Documents/uni/3038/lab4/bin/CMakeFiles/ZERO_CHECK.dir
