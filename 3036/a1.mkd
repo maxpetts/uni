@@ -1,0 +1,220 @@
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto&display=swap" rel="stylesheet">
+	<style>
+		table{
+			border: 1px solid grey;
+		}
+		body{
+			font-family: 'Roboto', sans-serif;
+			padding: 5px;
+		}
+		h1,h2,h3{
+			font-family: 'Patua One';
+		}
+		p,ul,table{
+			font-size: 13px;
+		}
+		/* prevent superscript toying with line height */
+		sup {
+			vertical-align: baseline;
+			position: relative;
+			top: -0.4em;
+			filter: brightness(150%);
+		}
+	</style>
+</head>
+
+### ICP-3036 Computer Graphics
+
+----
+
+# **Immersed rave screen** <img src='/Users/mp/Documents/uni/uni_logo.jpg' align='right' width='150px' />
+
+
+## **Max Petts** *- eeub35*
+### 📆 - 26.11.2020
+
+----
+
+## Intro
+Large scale performances, musical or theatrical, will almost always be accompanied by complex, and expensive lighting rigs - along with the additional man power needed to operate this equipment. Would it not be easier to let a computer pilot these systems for you? 
+
+Lighting coupled with good music or acting enhances the overall impact, and subsequently the audiences attention - making or breaking the performance experience.
+Richard Pilbrow describes lighting as "the glue that joins all elements of the production together and this helps to underline for the audience the fill emotion and meaning of the play."<sup>[1]</sup>, similiar to how watching a horror film without sound makes the film less scary.
+
+## Related Work 
+
+### Bainbridge Bishop
+Although not the oldest analogue audio visualisation 'instrument', it is the first one to be patented<sup>[2]</sup>, it coined the term 'Color Organ'. 
+Strangely, aside from the Wikipedia article, and Bishops personal notes on his color organ: "A souvenir of the color organ, with some suggestions in regard to the soul of the rainbow and the harmony of light" there are no other mentions of his work, or even him - that I can find anyway, which is why the references are so lackluster in this section.
+
+Interestingly, perhaps a harp back to the tradition of past times, Bainbridge enthuses about the potential for his Color Organ to be used within cathedrals.
+While his proposal is simliar to modern day applications of music visualisation, in terms of "The whole end of a cathedral"<sup>[3]</sup>, albeit the cathedral is now a dingy room - his vision is far removed from the visuals at festivals and nightclubs. 
+
+The instrument would physically operate shutters which allow light to travel through different "little windows glazed with different-colored glass"<sup>[3]</sup>. 
+The light would then reflect onto a white screen behind the organ, which once diffused and reflected would produce "a color that was softly shaded into the neutral tint of the glass"<sup>[3]</sup>.
+
+All three of Bishops' instruments were lost to fires - perhaps explaining why very little can be found on his work.
+As stated in his notes: "there is not a shred of all my five years' work in existence"<sup>[3]</sup>, one burnt in PT Barnum's, coined "America's Greatest Showman"<sup>[4]</sup> by Peter W. Kunhardt, country house, one at a hotel on Lake George, NY, and the other in Bishops own words: "was burned in my own house"<sup>[3]</sup>
+
+### Synesthesia
+
+Defined by Gravity Current, the owners of Synesthesia, as "an audio-reactive visual instrument used by VJs, musicians, and creative coders worldwide."<sup>[5]</sup>.
+It enables users to create custom scenes, which are made from GLSL(OpenGL Shading Language) fragment shaders - essentially enabling you to code visuals that take an audio input.
+This software is a prime example of what a perfect outcome of this project would be: a piece of software that enables users to make custom audio reactive visualisations. 
+
+The term "VJs" is perhaps the most suitable term for what this projects goals are - an abbreviation for Video Jockey. 
+It is described by Eskandar in a book titled "VJing" as "an artist who creates and mixes video live and in synchronisation to music"<sup>[10]</sup> 
+Further into the book the author details how some of the video art created at an artists retreat in Owego, New York was debuted at a famous club: Hurrah.
+Once visited by a-listers such as David Bowie, Iggy Pop and Mick Jagger<sup>[11]</sup>, to name a few, it is a huge claim and justifies the aforementioned points of visual effects really making the performance. 
+
+Aside from this piece of software Synesthesia is also a recognised medical condition, fittingly it is defined by Edward M. Habbard and Julia Simner as "a condition in which the stimulation of one sensory modality automatically evokes a perception in an unstimulated modality"<sup>[6]</sup>.
+Roughly "between 0.08% and 2.8% of the general population"<sup>[8]</sup> experience Synesthesia, and an individual is defined by Cretien van Campen as a "synesthete"<sup>[7]</sup>.
+These Synesthetes experience overlapping senses, and in one of the most common forms letters or numbers are inherently ajoined with colours<sup>[9]</sup>. 
+
+While this medical condition could be considered unrelated work I believe it is an interesting topic as it combines both sound and vision; the exact premise of this report.
+
+[](https://nshelton.github.io/portfolio/synesthesia/) 
+
+#### Processing / p5.js
+
+Processing is a Java library that enables users to quickly and easily code animations, interactions, and images.
+Summarised by Lauren McCarthy as "The idea is to write a single line of code, and have a circle show up on the screen.
+Add a few more lines of code, and have a circle show up on the screen. Add a few more lines of code and the circle follows the mouse."<sup>[13]</sup>
+Processing and p5.js, are libraries designed to aid people who are visual learners in learning to code.
+While it is marketed towards newer programmers the library itself is very 'feature-full' and capable of performing the tasks required for this project. 
+
+
+p5.js is the JavaScript implementation of Processing, and enables the user to view their visualisation in the browser.
+This is a useful JavaScript library and also enables the programmer to use audio streams to manipulate elements on the canvas.
+However, it is rather costly on performance as it re-renders the entire canvas whenever something is animated, whether the element is moving or not. 
+
+I have linked some exemplar p5.js projects below:
+
+- [matthewjurenka.com/visualizations](https://www.matthewjurenka.com/visualizations/spinning/)
+- [github.com/ThomasJones/processing-audio-visualizer](https://github.com/ThomasJones/processing-audio-visualizer)
+
+Other web frameworks available like three.js and CCapture; however I have past experience in p5 and so this is the most likely candidate for this project.
+
+## User
+
+There are multiple users of this project as different groups use different aspects, they are below.
+
+### Venue Owner
+
+The owner of the venue will likely be a middle aged person, of any gender.
+They must be the owner of a large screen, or projector and have the computing capabilities to drive such a display.
+The driving computer will most likely be wired, as transmitting wirelessly can prove costly and has larger potential for error.
+Wiring around clubs and music performance venues will not be a problem as most of them already have large wiring arrangements in place.
+Considering the set up that most venues already have and the profit margins that most of them have I believe that this is a reasonable expectation.
+
+They will most likely expect all of the set-up and any needed calibration to be done for them.
+Due to the nature of their job they will most likely have little time to help with the set-up or any other aspects of the performance. 
+
+### Operator
+
+The operator of the software will need to have an extensive knowledge on how to use it. 
+This will differ depending on the chosen implementation solution.
+However, this user will probably have an extensive background in live performance effects, whether this is lighting, DJing or even VJing.
+Due to this users background in performance effects they will most likely feel comfortable in the lighting booth of the venue - providing there is one. 
+Failing the venue having a booth then the operator may choose to set up shop off stage and away from the crowds, but an essential aspect that must be considered is a clear view of the audience. 
+A view of the audience is neccessary to be able to change the performance based upon the crowds reaction or previous visual effects - similiar to how a DJ should change their set to please the crowd.
+
+They would expect to have a clearly thought out piece of software, that provides auto beat detection - with the option to manually input the beat; scene changing capabilities, easy to use interface - that will allow them to quickly navigate to different settings and options; easy scene browsing with a quick view window to easily decide on a scene.
+Speaking from my experience with lighting, and live music equipment I believe it is always preferable to have physical buttons and sliders instead of virtual implementations. 
+Due to this I believe the operator would also expect to be able to connect a light controller, as such the software should be able to accept MIDI or DMX connections. 
+
+### Audience
+
+While the audience may not be considered as a user of this piece of software, they are experiencing it.
+As this will most likely be used in a club setting: they will most likely be young adults, again of any gender, that enjoy partying and loud music accompanied with bright lights.
+
+They will expect the visuals to match very closely with the music, so there must be little delay between audio and the rendering of visuals.
+Relying on the latency the audience will believe they're affecting the visuals - providing they're dancing to it.
+
+## Goals
+
+The goal of this project is to create a real-time audio visualisation kit, that will provide operators the means to create meaningful graphics that are influenced by an audio input.
+Because of the real-time requirement for live performances the main challenge will be to produce software that can visualise the audio with almost zero latency - if the visuals are drastically behind the performance it may ruin it.
+
+The size of the screen must also be limited as it'll be a great challenge to create the visualisations in real time and then upscale them onto very large screens, like the ones seen at large festivals.
+There are companies who are already well established in this area, like Glowing Pictures who have worked on performances with The Beastie Boys.
+In an interview with Dubspot they detail their workflow and how they use software very similiar to what audio engineers will use.
+
+Some ambitious goals would be to have normal stage lights be controlled from the software, so it must accept DMX input.
+
+## Why
+As previously mentioned visual effects greatly increase the quality of any stage performance.
+Most visualisation software I've encountered is locked behind a large paywall, so isn't readily available to hobbyists or small time performers.
+So the main audience would be people who are interested in the art but aren't willing to splash hundreds of pounds on software - so it must remain free or cheap.
+I'd like to keep it open source, which proves hard to monetize - unless people have to pay for commercial licensing.
+
+## When
+
+The time frame for this project will be determined by the clients requirements as but must be ready for release weeks prior to the event to enable for the creation of scenes for the song.
+As long as people are always going to clubs and/or live music is always being performed I believe there will always be a market. 
+
+It will require extensive preparation prior to an event to configure the scenes and organise them into different categories lie: breakdown, build-up and drop, as well as other sections of songs.
+Due to this it may prove difficult for the user to monetize their preparation time, but this isn't a far cry from how DJs get payed.
+
+## How
+
+The most likely software candidates have been mentioned in the Related Work section of this report, like p5.js or Synesthesia.
+However, in order to achieve some of the more ambitious goals hardware solutions must also be implemented: converting DMX or MIDI into signals that the software can interpret - solutions for this are available on the consumer market for relatively cheap prices.
+
+This project is already rather ambitious and so it's best to keep it simple and cheap.
+The audience will be none the wiser of how the software works, a black box implementation if you will, so they will not need to directly affect the visualisation.
+Instead when the song gets more upbeat it is assumed that the audience will also dance more, thus creating the illusion they're influencing it.
+
+Some of the more complex ideas are bulletpointed below:
+
+ - **Lasers shining across audience - detects jumping**
+
+	✖ Doesn't adjust for tall person
+
+	✓ Relatively cheap
+
+ - **Pressure Pads - detects force of people landing from jump**
+
+	✓ Will be most reliable for sensing audience movement
+
+	✖ Requires whole floor to be decked out with pads
+
+	✖ Very expensive
+
+	✖ Computing power to process each pad  
+
+## Ethical and Sustainability
+
+One of the main ethical problems related to this project is of course the safety of the audience.
+While this software is designed to increase the quality of a night safety is out of our hands, instead the venue must do their utmost to ensure people aren't putting themselves in danger.
+
+Users must also be careful if images are used within the visualisation, as they may infringe on copyright - a disclaimer should be included to negate any resonsibility onto the operator. 
+
+If this software reaches the more ambitious goals then there is potential for people to lose their jobs, as if all of the stage lighting can be controlled by a single person with one device, then there will be no need to employ the other lighting engineers. 
+Additionally, if this software and the accompanying operators became too costly for the venue then this could cause a negative affect on prices of drinks or entry.
+
+One of the things that were not considered during this research and development is the potential use-case for people with disabilites.
+A user with Arthritis will find it hard to use small interfaces, and interact with physical turn knobs for the inputs into the software.
+Although this could be mitigated due to the projected potential for MIDI devices to be used as a controller. 
+While tough, it would not be impossible for a deaf person to use this provided they know time-stamps of the song to set up automatic scene switching prior to the performance.
+
+|     | References |
+| --- | ---------- |
+| [1] | https://books.google.co.uk/books?id=4viNulYb3XsC | 
+| [2] | https://en.wikipedia.org/wiki/Color_organ#cite_ref-3 | 
+| [3] | https://rhythmiclight.com/1998/books/HarmonyOfLight.pdf |
+| [4] | https://books.google.co.uk/books?id=4tbtAAAAMAAJ |
+| [5] | https://synesthesia.live/docs/index.html |
+| [6] | https://books.google.co.uk/books?id=ESH7AAAAQBAJ |
+| [7] | https://web.archive.org/web/20110628222645/http://www.pucsp.br/pos/tidd/teccogs/artigos/pdf/teccogs_edicao1_2009_artigo_CAMPEN.pdf |
+| [8] | https://books.google.co.uk/books?id=DeflCgAAQBAJ |
+| [9] | https://doi.org/10.1038/nrn702 |
+| [10] | https://books.google.co.uk/books?id=AH9j34EdXOMC |
+| [11] | http://www.bowiegoldenyears.com/1980.html |
+| [12] | https://docs.microsoft.com/en-us/windows/win32/wmp/custom-visualization-programming-guide |
+| [13] | https://books.google.co.uk/books?id=iP3GCgAAQBAJ |
+
+<div style="page-break-after: always; visibility: hidden">
+\pagebreak
+</div>

@@ -1,0 +1,13 @@
+Image output = *this;
+	for (size_t y = 0; y < output.getHeight(); ++y)
+	{
+		for (size_t x = 0; x < output.getWidth(); ++x)
+		{
+			if (output(x, y) < aLowerThreshold)
+				output(x, y) = aLowerThreshold;
+
+			else if (output(x, y) > anUpperThreshold)
+				output(x, y) = anUpperThreshold;
+		}
+	}
+	return output;
